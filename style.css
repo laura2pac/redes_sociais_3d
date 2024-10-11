@@ -1,1 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+:root{
+    --cor-texto: #57A6A1;
+    --cor-fundo: #577B8D;
+    --cor-segundaria: #240750;
+    --cor-azul: #344C64;
+    --font:"Qwitcher Grypen", cursive;
+}
+body{
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    font-family: var(--font);
+}
