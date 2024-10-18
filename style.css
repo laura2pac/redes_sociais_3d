@@ -13,7 +13,7 @@ body{
     font-family: var(--font);
 }
 header{
-    background-color: var(--cor-texto);
+    background-color: var(--cor-segundaria);
     text-align: center;
 }
 h1{
