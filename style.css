@@ -9,7 +9,7 @@
 }
 body{
     background-color: var(--cor-texto);
-    color: var(--cor-azul);
+    color: var(--cor-fundo);
     font-family: var(--font);
 }
 header{
