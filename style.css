@@ -3,13 +3,13 @@
 :root{
     --cor-texto: #57A6A1;
     --cor-fundo: #577B8D;
-    --cor-segundaria: #240750;
+    --cor-segundaria: #7a5fa1;
     --cor-azul: #344C64;
     --font:"Qwitcher Grypen", cursive;
 }
 body{
     background-color: var(--cor-texto);
-    color: var(--cor-segundaria);
+    color: var(--cor-azul);
     font-family: var(--font);
 }
 header{
