@@ -12,3 +12,7 @@ body{
     color: var(--cor-segundaria);
     font-family: var(--font);
 }
+header{
+    background-color: var(--cor-texto);
+    text-align: center;
+}
