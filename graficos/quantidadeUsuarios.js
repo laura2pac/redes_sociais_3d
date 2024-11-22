@@ -26,39 +26,9 @@ async function quantidadeUsuariosPorRede() {
             x: 0,
             font: {
                 color: getCSS('--primary-color'),
-                tickfont: tickConfig,
-                title: {
-                    text: 'Nome das redes',
-                    font: {
-                        color: getCSS('--secondary-color')
-                    }
-                }
-    …    }
-    
-        const grafico = document.createElement('div')
-        grafico.className = 'grafico'
-        document.getElementById('graficos-container').appendChild(grafico)
-        Plotly.newPlot(grafico, data, laytout)
-    }
-    
-    quantidadeUsuariosPorRede()              size: 30,
+                size: 30,
                 font: getCSS('--font')
-                tickfont: tickConfig,
-                title: {
-                    text: 'Nome das redes',
-                    font: {
-                        color: getCSS('--secondary-color')
-                    }
-                }
-    …    }
-    
-        const grafico = document.createElement('div')
-        grafico.className = 'grafico'
-        document.getElementById('graficos-container').appendChild(grafico)
-        Plotly.newPlot(grafico, data, laytout)
-    }
-    
-    quantidadeUsuariosPorRede()           }
+            }
         },
         xaxis: {
             tickfont: tickConfig,
